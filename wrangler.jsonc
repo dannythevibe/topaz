@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "topaz-waitlist",
+  "compatibility_date": "2026-11-16",
+  "assets": {
+    "directory": "./waitlist"
+  },
+  "routes": [
+    {
+      "pattern": "topaz.toslabs.space",
+      "custom_domain": true
+    }
+  ]
+}
